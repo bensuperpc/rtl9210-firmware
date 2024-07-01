@@ -1,0 +1,51 @@
+VID : 0x0bda
+PID : 0x9210
+MANUFACTURE : "External"
+PRODUCT : "M.2 NVME"
+SERIAL : "012345678903"
+SCSI_PRODUCT : "M.2 NVME"
+SCSI_VENDOR : "External"
+DISK_HOTPLUG : 0x00
+LED : 0x01
+PINMUX1 : 0x00070000
+PINMUX2 : 0x00000000
+U2_MAXPWR : 0xfa
+U3_MAXPWR : 0x70
+ASPMDIS : 0x00
+PCIE_REFCLK : n/a
+DISK_IPS_THRES : 0x01
+SWR_1_2V : n/a
+EN_UPS : n/a
+PD : n/a
+CUSTOMIZED_LED : n/a
+SUSPEND_LED_OFF : n/a
+FORCE_USB_SPEED : n/a
+FORCE_PCIE_SPEED : n/a
+FORCE_USB_QUIRK : n/a
+FORCE_PCIE_QUIRK : n/a
+FAN : 0x00000000
+DIS_SHOW_EMPTY_DISK : 0x00
+FORCE_SATA_NORMAL_DMA : n/a
+UART_DBG_PIN : 0x00
+FINGER_PRINT_EN : n/a
+RM_INTERNAL_RD : 0x00
+HS_AUTO_SWITCH : n/a
+EFUSE :
+00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F0 ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+10 ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+20 ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+30 ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+40 ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+50 ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+60 ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+70 ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+80 ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+90 ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+a0 ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+b0 ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+
+Boot Mode : Flash NM
+FW Ver : 1.23.9
+FW Build Date : 2020.10.05
+IC Ver : 0xa0010001
+IC Pkg Type : PCIE
