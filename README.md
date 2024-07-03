@@ -18,7 +18,8 @@ The table below lists all known firmware versions available in this git reposito
 | Firmware ver.        | Build date | RTL9210 | RTL9210B | Links                                                                             |
 | -------------------- | ---------- | ------- | -------- | --------------------------------------------------------------------------------- |
 | 1.20.12              | ?          | ✅       | ❌        | [Download](firmware/realtek_rtl9210_fw%20(Version%201.20.12).zip)                 |
-| 1.23.9               | ?          | ✅       | ❌        | [Download](firmware/realtek_rtl9210_fw%20(Version%201.23.9).zip)                  |
+| 1.23.5               | 2020.09.03 | ❓       | ❓        | Not found yet                                                                     |
+| 1.23.9               | 2020.10.05 | ✅       | ❌        | [Download](firmware/realtek_rtl9210_fw%20(Version%201.23.9).zip)                  |
 | 1.23.15              | ?          | ✅       | ❌        | [Download](firmware/realtek_rtl9210_fw%20(Version%201.23.15).zip)                 |
 | 1.25.7               | ?          | ✅       | ❌        | [Download](firmware/realtek_rtl9210_fw%20(Version%201.25.7).zip)                  |
 | 1.25.14              | ?          | ✅       | ❌        | [Download](firmware/realtek_rtl9210_fw%20(Version%201.25.14).zip)                 |
@@ -40,11 +41,10 @@ The table below lists all known firmware versions available in this git reposito
 | 1.32.45.041323       | ?          | ❓       | ✅        | [Download](firmware/realtek_rtl9210B_fw%20(Version%201.32.45.041323).zip)         |
 | 1.32.49.140423       | ?          | ❓       | ✅        | [Download](firmware/realtek_rtl9210B_fw%20(Version%201.32.49.140423).zip)         |
 | 1.32.49.140423 (Lcd) | ?          | ❓       | ✅        | [Download](firmware/realtek_rtl9210B_fw%20(Version%201.32.49.140423%20(Lcd)).zip) |
-| 1.32.68.062623       | ?          | ❓       | ✅        | [Download](firmware/realtek_rtl9210B_fw%20(Version%201.32.68.062623).zip)         |
-| 1.32.87.082923       | ?          | ❓       | ✅        | [Download](firmware/realtek_rtl9210B_fw%20(Version%201.32.87.082923).zip)         |
+| 1.32.68.062623       | 28.06.23   | ❓       | ✅        | [Download](firmware/realtek_rtl9210B_fw%20(Version%201.32.68.062623).zip)         |
+| 1.32.87.082923       | 29.08.23   | ❓       | ✅        | [Download](firmware/realtek_rtl9210B_fw%20(Version%201.32.87.082923).zip)         |
 | 1.32.901.120722      | ?          | ❓       | ✅        | [Download](firmware/realtek_rtl9210B_fw%20(Version%201.32.901.120722).zip)        |
-| 1.33.7.191023        | 19-10-2023 | ❌       | ✅        | [Download](firmware/realtek_rtl9210B_fw%20(Version%201.33.7.191023).zip)          |
-
+| 1.33.7.191023        | 19.10.2023 | ❌       | ✅        | [Download](firmware/realtek_rtl9210B_fw%20(Version%201.33.7.191023).zip)          |
 
 ## Supported Devices
 
@@ -177,6 +177,72 @@ When you have bricked your device, you can try to unbrick it with the following 
 8. Click on the flash/update device button and wait until the process is finished.
 
 ![](image/imageFlash.jpg)
+
+## Firmware changelog
+
+### 1.23.9.100520 2020.10.05
+
+- Add customized command.
+- Fix SATA USB powercut resume issue.
+- Fix SATA reset issue if disk is lost.
+- Update Kinsea KS10 LED behavior.
+- Fix Fulllink macbook disk speed test issue.
+
+### 1.23.5.09320 2020.09.03
+
+- Support USB HID interface.
+- Improve the compatibility for RTL9210B.
+- Support RTL9210C_PD/RTL9210C_CG.
+- Improve the compatibility for cdrom feature.
+- Add Orico customized sleep RGB LED behavior.
+- Support security api.
+- Add Kinsea KS10 LED behavior.
+- Add IOmaster M204 LED behavior.
+- Add LED SSI_6431_fp LED behavior.
+- Improve opal compatibility.
+
+### 1.27.25.072921 2021.07.29
+
+- This firmware update aims to improve stability with Samsung 980 Pro and Western Digital SN550 NVMe SSDs.
+- The power LED behavior is also improved on Windows, and Intel based Mac systems: 
+    now when safely ejected the power LED should turn off ( it may blink slowly )
+    indicating the drive may be safely unplugged from the computer.This update
+    is recommended for uses who have experienced connectivity problems with Samsung 980 Pro or Western Digital SN550 NVMe SSDs.
+
+### 1.29.8.122921 ?
+
+- Fix problem If your HDD/SSD could not be detected or kept disconnected from your Mac
+
+### 1.29.12.011122 ?
+
+- Fix Compatibility with Samsung M.2 SSDs und Samsung Data Migration Tool
+
+### 1.30.17.070622 ?
+
+- Fix slow speed issue.
+
+### 1.30.21.070622 ?
+
+- Has improved random 4K read performance.
+
+### 1.31.17.102022 ?
+
+### 1.32.16.010923 ?
+
+### 1.32.45.041323 ?
+
+### 1.32.49.140423 ?
+
+### 1.32.68.062623 28.06.23
+
+### 1.32.87.082923 29.08.23
+
+- Addresses USB link instability seen in some SSD models when used in conjunction with Linux-based PCs, including the Solidigm P41 Plus. This update includes compatibility fixes in certain scenarios, including use with the Samsung 980 Pro
+
+### 1.32.901.120722 ?
+
+### 1.33.7.191023 19-10-2023
+
 
 ## Contribute
 
