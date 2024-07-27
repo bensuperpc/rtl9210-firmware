@@ -1,5 +1,5 @@
 # RTL9210
-Firmware and tools for **RTL9210** and **RTL9210B** USB to NVMe/SATA bridge controller. They are provided by [station-drivers](www.station-drivers.com), [Realtek](www.realtek.com), etc.
+Firmware and tools for **RTL9210** and **RTL9210B** USB to NVMe/SATA bridge controller. They are provided by [station-drivers](https://www.station-drivers.com), [Realtek](https://www.realtek.com), etc.
 
 **All procedures described in this Git repository are at your own risk. In case of software issues, you can find some solutions in the [Unbrick](#unbrick) section.**
 
@@ -45,6 +45,7 @@ The table below lists all known firmware versions available in this git reposito
 | 1.32.87.082923       | 29.08.23   | ❓       | ✅        | [Download](firmware/realtek_rtl9210B_fw%20(Version%201.32.87.082923).zip)         |
 | 1.32.901.120722      | ?          | ❓       | ✅        | [Download](firmware/realtek_rtl9210B_fw%20(Version%201.32.901.120722).zip)        |
 | 1.33.7.191023        | 19.10.2023 | ❌       | ✅        | [Download](firmware/realtek_rtl9210B_fw%20(Version%201.33.7.191023).zip)          |
+| 1.33.44.011824       | ?          | ❓       | ✅        | [Download](firmware/realtek_rtl9210B_fw%20(Version%201.33.44.011824).zip)         |
 
 ## Supported Devices
 
@@ -242,6 +243,10 @@ When you have bricked your device, you can try to unbrick it with the following 
 ### 1.32.901.120722 ?
 
 ### 1.33.7.191023 19-10-2023
+
+### 1.33.44.011824 18-01-2024
+
+Improved Compatibility
 
 
 ## Contribute
