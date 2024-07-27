@@ -246,7 +246,7 @@ When you have bricked your device, you can try to unbrick it with the following 
 
 ### 1.33.44.011824 18-01-2024
 
-Improved Compatibility
+- Improved Compatibility
 
 
 ## Contribute
