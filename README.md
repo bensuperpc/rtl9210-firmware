@@ -111,8 +111,8 @@ This section describes how to configure (in cfg files) the firmware for your dev
 | DISK_HOTPLUG             | 0x0                  | Anable device supports hot-plugging (Very often 0x0)                                                            |
 | PINMUX1                  | 0x0                  | Pin multiplexing settings (first set)                                                                           |
 | PINMUX2                  | 0x0                  | Pin multiplexing settings (second set)                                                                          |
-| U2_MAXPWR                | 0xfa                 | U2 mode maximum power                                                                                           |
-| U3_MAXPWR                | 0x70                 | U3 mode maximum power                                                                                           |
+| U2_MAXPWR                | 0xfa                 | USB 2.0 mode maximum power                                                                                           |
+| U3_MAXPWR                | 0x70                 | USB 3.0 mode maximum power                                                                                           |
 | ASPMDIS                  | 0x0                  | Enable or disable active power management                                                                       |
 | PCIE_REFCLK              | 0x0                  | PCIe reference clock                                                                                            |
 | PCIE_PWRCUT_THRES        | 0x5                  | Suspends the PCIe power after 5 minutes of idle time  (1 unit = 1 minute),, it recommended to comment this line |
