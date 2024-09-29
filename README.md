@@ -53,16 +53,17 @@ There are dozens of devices with the RTL9210B, I have gathered in this git repos
 
 You can check in the [configure](configure) folder or use values from the [dump](dump) folder to create your own configuration.
 
-| Brand     | Model    | Controller   | config file                                          | dump | Notes |
-| --------- | -------- | ------------ | ---------------------------------------------------- | ---- | ----- |
-| Inateck   | FE2025   | RTL9210B     | [config](configure/RTL9210B_CG_INATEK_FE2025_N1.cfg) |      |       |
-| Sabrent   | EC-SNVE  | RTL9210B     | [config](configure/RTL9210B_CG_SABRANT_EC-SNVE.cfg)  |      |       |
-| Mokin     | MOUD0501 | RTL9210B     |                                                      |      |       |
-| Ugreen    | ?        | RTL9210B     | [config](configure/RTL9210B_CG_UGREEN.cfg)           |      |       |
-| SmallRig  | SD-01    | RTL9210B     |                                                      |      |       |
-| MKUO      | SD-01    | RTL9210(B ?) |                                                      |      |       |
-| Orico     | M2PJM-C3 | RTL9210(B ?) |                                                      |      |       |
-| Unionsime | MD202    | RTL9210B     | [config](configure/RTL9210B_CG_UNIONSINE_MD202.cfg)  |      |       |
+| Brand          | Model    | Controller   | config file                                          | dump                              | Notes |
+| -------------- | -------- | ------------ | ---------------------------------------------------- | --------------------------------- | ----- |
+| Inateck        | FE2025   | RTL9210B     | [config](configure/RTL9210B_CG_INATEK_FE2025_N1.cfg) | [dump](dump/INATEK_FE2025_N1.txt) |       |
+| Sabrent        | EC-SNVE  | RTL9210B     | [config](configure/RTL9210B_CG_SABRANT_EC-SNVE.cfg)  |                                   |       |
+| Mokin          | MOUD0501 | RTL9210B     |                                                      |                                   |       |
+| Ugreen         | ?        | RTL9210B     | [config](configure/RTL9210B_CG_UGREEN.cfg)           | [dump](dump/UGREEN.txt)           |       |
+| SmallRig       | SD-01    | RTL9210B     |                                                      | [dump](dump/SMALLRIG_SD-01.txt)   |       |
+| MKUO           | SD-01    | RTL9210(B ?) |                                                      |                                   |       |
+| Orico          | M2PJM-C3 | RTL9210(B ?) |                                                      | [dump](dump/ORICO_M2PJM-C3.txt)   |       |
+| Unionsime      | MD202    | RTL9210B     | [config](configure/RTL9210B_CG_UNIONSINE_MD202.cfg)  | [dump](dump/UNIONSINE_MD202.txt)  |       |
+| UniAccessories | ?        | RTL9210B     | [config](configure/RTL9210B_CG_UniAccessories.cfg)   | [dump](dump/UniAccessories.txt)   |       |
 
 
 ## How to Flash the Firmware
