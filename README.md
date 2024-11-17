@@ -1,15 +1,14 @@
 # RTL9210
+
 Firmware and tools for **RTL9210** and **RTL9210B** USB to NVMe/SATA bridge controller. They are provided by [station-drivers](https://www.station-drivers.com), [Realtek](https://www.realtek.com), etc.
 
 **All procedures described in this Git repository are at your own risk. In case of software issues, you can find some solutions in the [Unbrick](#unbrick) section.**
-
 
 ## Files and Folders
 
 - [configure](configure): All configurations for each device.
 - [dump](dump): All dumps for each device.
 - [firmware](firmware): All found firmware.
-
 
 ## Firmware
 
@@ -23,7 +22,7 @@ The table below lists all known firmware versions available in this git reposito
 | 1.23.15              | ?          | ✅       | ❌        | [Download](firmware/realtek_rtl9210_fw%20(Version%201.23.15).zip)                 |
 | 1.25.7               | ?          | ✅       | ❌        | [Download](firmware/realtek_rtl9210_fw%20(Version%201.25.7).zip)                  |
 | 1.25.14              | ?          | ✅       | ❌        | [Download](firmware/realtek_rtl9210_fw%20(Version%201.25.14).zip)                 |
-| 1.25.18              | ?          | ✅       | ❌        | [Download](firmware/realtek_rtl9210_fw%20(Version%201.25.18).zip)                 |
+| 1.25.18              | ?          | ✅       | ✅ ?      | [Download](firmware/realtek_rtl9210_fw%20(Version%201.25.18).zip)                 |
 | 1.27.24              | ?          | ✅       | ❌        | [Download](firmware/realtek_rtl9210_fw%20(Version%201.27.24).zip)                 |
 | 1.27.25              | ?          | ✅       | ❌        | [Download](firmware/realtek_rtl9210_fw%20(Version%201.27.25).zip)                 |
 | 1.28.17              | ?          | ✅       | ❌        | [Download](firmware/realtek_rtl9210_fw%20(Version%201.28.17).zip)                 |
@@ -65,7 +64,6 @@ You can check in the [configure](configure) folder or use values from the [dump]
 | Unionsime      | MD202    | RTL9210B     | [config](configure/RTL9210B_CG_UNIONSINE_MD202.cfg)  | [dump](dump/UNIONSINE_MD202.txt)  |       |
 | UniAccessories | ?        | RTL9210B     | [config](configure/RTL9210B_CG_UniAccessories.cfg)   | [dump](dump/UniAccessories.txt)   |       |
 
-
 ## How to Flash the Firmware
 
 **Warning: Flashing the firmware can brick or permanently damage your device. Do it at your own risk. The author of this Git repository is not responsible for any damage to your device. If you brick your device, you can try to unbrick it with the [Unbrick](#unbrick) section.**
@@ -86,7 +84,6 @@ You can check in the [configure](configure) folder or use values from the [dump]
 12. Launch the firmware update tool (such as UTHSB_MPtool) provided in the firmware archive.
 13. Select the configuration file (`.cfg`) of your device.
 14. Click on the flash/update device button and wait until the process is finished.
-
 
 ## Configuration
 
@@ -150,7 +147,6 @@ This section describes how to configure (in cfg files) the firmware for your dev
 | PERIPH_API               | 0x0                  | ?                                                                                                               |
 | RAID_CFG                 | 0x0                  | ?                                                                                                               |
 
-
 ## Create your own configuration
 
 To create your own configuration, you can use the `dump` folder to get the values of your device.
@@ -163,7 +159,6 @@ To create your own configuration, you can use the `dump` folder to get the value
 6. Replace `:` with `=` for variable definitions.
 7. Comment `DISK_IPS_THRES` by changing it to `;DISK_IPS_THRES = 0x1` if you want. (Optional)
 8. Launch the firmware update tool (such as UTHSB_MPtool), select the new configuration file, and flash it.
-
 
 ## Unbrick
 
@@ -206,7 +201,7 @@ When you have bricked your device, you can try to unbrick it with the following 
 ### 1.27.25.072921 2021.07.29
 
 - This firmware update aims to improve stability with Samsung 980 Pro and Western Digital SN550 NVMe SSDs.
-- The power LED behavior is also improved on Windows, and Intel based Mac systems: 
+- The power LED behavior is also improved on Windows, and Intel based Mac systems:
     now when safely ejected the power LED should turn off ( it may blink slowly )
     indicating the drive may be safely unplugged from the computer.This update
     is recommended for uses who have experienced connectivity problems with Samsung 980 Pro or Western Digital SN550 NVMe SSDs.
@@ -248,7 +243,6 @@ When you have bricked your device, you can try to unbrick it with the following 
 ### 1.33.44.011824 18-01-2024
 
 - Improved Compatibility
-
 
 ## Contribute
 
