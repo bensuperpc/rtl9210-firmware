@@ -14,8 +14,8 @@ Firmware and tools for **RTL9210** and **RTL9210B** USB to NVMe/SATA bridge cont
 
 The table below lists all known firmware versions available in this git repository's [firmware](firmware) folder.
 
-| Firmware ver.        | Build date | RTL9210 | RTL9210B | Links                                                                             |
-| -------------------- | ---------- | ------- | -------- | --------------------------------------------------------------------------------- |
+| Firmware ver.        | Build date | RTL9210  | RTL9210B  | Links                                                                             |
+| -------------------- | ---------- | -------- | --------- | --------------------------------------------------------------------------------- |
 | 1.20.12              | ?          | ✅       | ❌        | [Download](firmware/realtek_rtl9210_fw%20(Version%201.20.12).zip)                 |
 | 1.23.5               | 2020.09.03 | ❓       | ❓        | Not found yet                                                                     |
 | 1.23.9               | 2020.10.05 | ✅       | ❌        | [Download](firmware/realtek_rtl9210_fw%20(Version%201.23.9).zip)                  |
