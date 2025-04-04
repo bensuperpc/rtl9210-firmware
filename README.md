@@ -1,1 +1,1 @@
-# Moved to: https://github.com/bensuperpc/rtl9210-firmware
+# Moved to: https://github.com/bensuperpc/rtl9210
